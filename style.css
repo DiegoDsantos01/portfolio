@@ -1,0 +1,339 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow-x: hidden;
+    flex-direction: column; 
+}
+
+nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 60px;
+    width: 100%;
+    background-color: #ffca94;
+    /* background-image: url(img/sonic.jpg); */   
+}
+
+/* Inicio CSS do Menu */
+.textNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    height: 60px;
+    border: 50px;
+    background-color: #ffca94; 
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 2px 5px gray;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    color: aliceblue;
+    font-weight: normal;
+    text-align: center;
+    font-size: 11pt;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.inicio, .programacao, .ilustracao, .sobre, .contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffca94;
+    width: 40%;
+    height: 60px;
+    border: 50px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.inicio:hover{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 60px;
+    background-color: red;
+    border: 50px;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.programacao:hover{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 60px;
+    background-color: red;
+    border: 50px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.ilustracao:hover{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 60px;
+    background-color: red;
+    border: 50px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.sobre:hover{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 60px;
+    background-color: red;
+    border: 50px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.contato:hover{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 60px;
+    background-color: red;
+    border: 50px;
+    border-radius: 0px 0px 10px 0px;
+}
+/* Fim do CSS do Menu */
+
+/* CSS da logo */
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 10%;
+    height: 60px;
+    border: 50px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    background-color: white;  
+    border: 50px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 2px 5px gray; 
+}
+
+#logoPreto{
+    height: 90%;
+    cursor: pointer;
+}
+
+#logoPreto:hover, .logo:hover{
+    background-color: red;
+}
+/* Fim do CSS da Logo */
+
+/* CSS da Header */
+
+header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    background-image: url(img/fundo_header.jpg);
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.title{
+    display: flex;
+    align-items: flex-start; 
+    /* justify-content: space-around; */
+    flex-direction: column; 
+    height: 20px;
+    width: 100%;
+    margin: 0px 0px 0px 50px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 0;
+    font-size: 16pt;
+    font-weight: normal;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 70pt; 
+    margin: 0;
+    font-style: italic;
+}
+
+.social{
+    height: 20px;
+    width: 100%;
+    margin: 0px 0px 0px 50px;
+}
+.social img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+/* Fim do CSS Header */
+
+/* CSS box do article */ 
+
+article{
+    height: 600px;
+    width: 100%;
+    background-color: #f6f4f0;
+}
+
+.containerArticle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    width: 100%;
+}
+
+.box1, .box2, .box3, .box4{
+    height: 90%;
+    width: 20%;
+    background-color: rgb(163, 21, 21);
+    margin: 5px;
+    border-radius: 20px;
+    position: relative;
+    top: -100px;
+    /* opacity: 0.9; */
+
+}
+
+.box1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1e1e1e;
+    font-size: 14pt;
+    background-image: url(img/imagens_box/imagem_box1.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box1:hover{
+    background-image: url(img/imagens_box/box1_hover.jpg);
+    transition: 1.5s;
+    transform: scale(1.1)
+}
+
+.box2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 14pt;
+    background-image: url(img/imagens_box/imagem_box2.jpg);
+    background-color: #68a7f4;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.box2:hover{
+    background-image: url(img/imagens_box/box2_hover.jpg);
+    transition: 1.5s;
+    transform: scale(1.1)
+}
+
+.box3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 14pt;
+    background-image: url(img/imagens_box/imagem_box3.jpg);
+    background-color: #1c1c1c;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.box3:hover{
+    background-image: url(img/imagens_box/box3_hover.jpg);
+    transition: 1.5s;
+    transform: scale(1.1)
+}
+
+.box4{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 14pt;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 123, 0));
+    background-color: #1c1c1c;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.box4:hover{
+    background-image: linear-gradient(rgb(255, 123, 0), rgb(255, 255, 255));
+    color: white;
+    transition: 1s;
+    transform: scale(1.1)
+}
+
+.aboutSkills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: black;
+    font-size: 40pt;
+}
+
+.subAbout{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: black;
+    font-size: 18pt;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100px; */
+}
+button{
+    height: 50px;
+    width: 100px;
+}
+/* Fim do CSS box do article */
