@@ -1,0 +1,113 @@
+section {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f6f4f0;
+    
+}
+
+
+.skills h1{
+    font-size: 18pt;
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.barSection, .barSection2{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f6f4f0;
+
+}
+
+Stylingthe last h2 tag by giving margin bottom
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+/* Fonte da Barra*/
+.progress-bar-container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* Barra de progresso */
+.progress-bar {
+    width: 350px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid #44E3B1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(5, 56, 20);
+}
+
+/* Loading da Barra */
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: rgb(68, 227, 177);
+    border-radius: 5px;
+    animation: progress 1500ms ease-in 1;
+}
+
+/* Skills */
+.html {
+    width: 85%;
+}
+
+.css {
+    width: 70%;
+}
+
+.javascript {
+    width: 55%;
+}
+
+.python {
+    width: 75%;
+}
+
+.sql {
+    width: 65%;
+}
+
+.git {
+    width: 55%;
+}
+
+
+.photoshop {
+    width: 85%;
+}
+
+.illustrator {
+    width: 70%;
+}
+
+.zbrush {
+    width: 55%;
+}
+
+.premiere {
+    width: 75%;
+}
+
+
+/* Animating the progress bar by
+initially starting from 0*/
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+</style>
